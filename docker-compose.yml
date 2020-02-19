@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+ jiapp3:
+  image: jiwebapp1:v1
+  build: .
+  container_name: jiwebappc1
+  ports:
+   - '8081:80'
